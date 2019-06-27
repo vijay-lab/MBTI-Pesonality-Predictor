@@ -1,0 +1,28 @@
+body {
+	background-size: 1550px 800px;
+}
+textarea {
+	background-color: #dbe3ef;
+    opacity: .8;
+	border: solid 2px #636e72;
+	border-radius: 10px;
+	box-shadow : 5px 5px 10px black;	
+}
+.btn {
+	background-color: #a29bfe;
+	border: solid 2px #a29bfe;
+	border-radius: 10px;
+	width : 100px;
+	height : 50px;
+	box-shadow : 5px 5px 10px black;
+	margin: 40px;	
+}
+.btn:hover {
+	background-color: #6c5ce7;
+	border: none;
+	box-shadow : 5px 5px 10px blue;	
+}
+h1, h2 {
+    text-shadow: 2px 2px 3px white;	
+    color : #2f3542;
+}

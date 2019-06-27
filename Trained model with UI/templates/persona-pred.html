@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Machine Learning App</title>
+<link rel="stylesheet" type="text/css" href="/static/mystyle.css">
+</head>
+<script type="text/javascript">
+document.getElementById("myDiv").innerHTML = strText.value;
+	
+</script>
+<style type="text/css">
+h1{
+
+}	
+body {
+background:url(/static/bkg.png);
+background-repeat:no-repeat;
+background-size:content; 
+}</style>
+<h1 style="text-align:center;" >Welcome to your Personality Advisor</h1>
+<h2 style="text-align:center;" >Enter Your Comment Here</h2>
+<form style='text-align:center;' action="{{ url_for('output') }}" method="POST">
+  <br>
+    <textarea  style='width:800px; height:400px;' placeholder="Enter Comment Here..." name="msg"></textarea><br>
+  <input type="submit" value="Predict" class = 'btn' color= blue>
+  <input type="reset" value="Reset" class = 'btn'>
+</form>
+</body>
+</html>
+
