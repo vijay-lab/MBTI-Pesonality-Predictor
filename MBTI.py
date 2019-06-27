@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 24 14:38:12 2019
-
-@author: TAPAN
-"""
-
 import pandas as pd
 import numpy as np
 import re
